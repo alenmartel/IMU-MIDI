@@ -3,8 +3,11 @@ gyrOSC > TouchDesigner > Mainstage ::: sensor for musical generation during danc
 
 Requirements:
 1. iPhone with gyrOSC app
-2. MacBook with TouchDesigner and MainStage, or any other performance software that allows program changing
-   _on your Mac, you have to enable IAC MIDI Driver and then in TouchDesigner, you have to map your MIDI In and Out to this in the MIDI Mapping settings to your IAC MIDI Driver_
+2. MacBook with TouchDesigner and MainStage, or any other performance software that allows program changing. 
+
+_Please Note: on your Mac, you have to enable IAC MIDI Driver, by searching for your 'Audio MIDI Setup' program (search for it in Spotlight), and then going to Windows > Show MIDI Studio > double-click and select 'Device is Online'. In TouchDesigner, open the .toe file, go to Dialogs > MIDI Device Mapper > Create New Mapping > for 'In Device' select IAC Driver Bus 1, and same for 'Out Device'. MainStage should automatically detect this as your MIDI device._
+
+
 4. Internet connection, or Wi-Fi Router
 
 Using an iPhone strapped to the body to generate live music.
